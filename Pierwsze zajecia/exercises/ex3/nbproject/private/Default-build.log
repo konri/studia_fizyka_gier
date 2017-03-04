@@ -1,0 +1,4 @@
+mkdir -p obj
+g++ -std=c++14 -pthread -O2 -Wall -pedantic -c  main.cpp -o ./obj/main.o 
+g++: error: unrecognized command line option ‘-std=c++14’
+make: *** [obj/main.o] Błąd 1
